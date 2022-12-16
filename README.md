@@ -6,7 +6,7 @@ This port works as the Walnut that The Cherno Made.
 Reasons is I am more used to DirectX 11 and don't know much about vulkan.
 Therefore I ported it to DirectX 11.
 
-Reason is I wanted to multi thread the loading of images and that why since I don't know vulkan.
+Reason is I wanted to multi thread the loading of images (You need to to it by yourself but it wont crash) and that why since I don't know vulkan.
 So in this port you can load all images on another thread while still running the app to have no downtime.
 Will be coming out with a example app in the future :D
 

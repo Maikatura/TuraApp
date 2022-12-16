@@ -1,0 +1,25 @@
+# Directories
+.vs/
+bin/*.exe
+bin/*.pdb
+!bin/assets/
+!bin/libcurl.dll
+!bin/imgui.ini
+bin-int/
+Tura/bin/
+
+
+# Files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+
+# Exclude
+!vendor/bin
+Tura/bin/Debug-windows-x86_64/Tura/Tura.idb
+Tura/bin/Debug-windows-x86_64/Tura/Tura.lib
+Tura/bin/Debug-windows-x86_64/Tura/Tura.pdb
+Tura/bin/Release-windows-x86_64/Tura/Tura.lib
+Tura/bin/Release-windows-x86_64/Tura/Tura.pdb
+vendor/libcurl/bin/Release-windows-x86_64/libcurl/libcurl.pdb
